@@ -8,16 +8,16 @@ This paper analyses 50 papers in total to do with heuristics for VR. They claim 
 
 * Natural engagement
 * Compatibility wit the user's tasks and domain
-Natural expression of action
-Close coordination of action and representation
-Realistic feedback
-Faithful viewpoints
-Navigation and orientation support
-Clear entry and exit points
-Consistent departures
-Support for learning
-Clear turn-taking
-Sense of presence
+* Natural expression of action
+* Close coordination of action and representation
+* Realistic feedback
+* Faithful viewpoints
+* Navigation and orientation support
+* Clear entry and exit points
+* Consistent departures
+* Support for learning
+* Clear turn-taking
+* Sense of presence
 
 These heuristics appear to be clear and precise of how VR should be developed however the author believes that many developers are in fact ignoring them. The author also believes that " the heuristics are being cited increasingly, but they have only been used, either fully or partly by 10 out of 50 citations"[2]
 
@@ -38,9 +38,9 @@ This paper was about user interfaces and how the brain reacts to them. The autho
 
 
 ## References
-[1] http://ieeexplore.ieee.org/document/7363283/
-[2] https://dl-acm-org.ezproxy.falmouth.ac.uk/citation.cfm?id=2399065
-[3] https://dl-acm-org.ezproxy.falmouth.ac.uk/citation.cfm?id=2641201
-[4] http://web.b.ebscohost.com.ezproxy.falmouth.ac.uk/ehost/detail/detail?vid=0&sid=1d47d5bc-3d69-49b2-af1f-5367b624f942%40sessionmgr103&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#AN=102884181&db=ufh
-[5] https://dl-acm-org.ezproxy.falmouth.ac.uk/citation.cfm?id=3001961
-[6] https://dl.acm.org/citation.cfm?id=1519035
+* [1] http://ieeexplore.ieee.org/document/7363283/
+* [2] https://dl-acm-org.ezproxy.falmouth.ac.uk/citation.cfm?id=2399065
+* [3] https://dl-acm-org.ezproxy.falmouth.ac.uk/citation.cfm?id=2641201
+* [4] http://web.b.ebscohost.com.ezproxy.falmouth.ac.uk/ehost/detail/detail?vid=0&sid=1d47d5bc-3d69-49b2-af1f-5367b624f942%40sessionmgr103&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#AN=102884181&db=ufh
+* [5] https://dl-acm-org.ezproxy.falmouth.ac.uk/citation.cfm?id=3001961
+* [6] https://dl.acm.org/citation.cfm?id=1519035
