@@ -6,8 +6,8 @@ This paper goes into detail about the various types of hardware that have been u
 ## Exploitation of Heuristics for Virtual Environments
 This paper analyses 50 papers in total to do with heuristics for VR. They claim that out of a staggering 50 papers only 10 papers had made use of or made reference to SG2004. The paper begins with the twelve heuristics that were proposed during the year 2004 by Sutcliffe and Gault. It was based from Nielson's heuristics and also Sutcliffe's and Kaur's work from the year 2000. The twelve heuristics are as follows: 
 
-Natural engagement
-Compatibility wit the user's tasks and domain
+* Natural engagement
+* Compatibility wit the user's tasks and domain
 Natural expression of action
 Close coordination of action and representation
 Realistic feedback
