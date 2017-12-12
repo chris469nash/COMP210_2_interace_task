@@ -1,0 +1,974 @@
+﻿Log file open, 12/11/17 18:45:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VR_Shooting_Gallery
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-655110869) SRandInit(-655110869).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.117675
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.11-18.45.17:953][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.11-18.45.17:953][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.11-18.45.18:030][  0]LogInit: Computer: CHRIS-LAPTOP
+[2017.12.11-18.45.18:030][  0]LogInit: User: ChristopherNash
+[2017.12.11-18.45.18:030][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.12.11-18.45.18:030][  0]LogInit: High frequency timer resolution =2.343750 MHz
+[2017.12.11-18.45.18:031][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.12.11-18.45.18:031][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.11-18.45.18:031][  0]LogMemory: Process Physical Memory: 276.86 MB used, 276.86 MB peak
+[2017.12.11-18.45.18:031][  0]LogMemory: Process Virtual Memory: 275.92 MB used, 275.92 MB peak
+[2017.12.11-18.45.18:031][  0]LogMemory: Physical Memory: 3970.74 MB used,  4085.39 MB free, 8056.13 MB total
+[2017.12.11-18.45.18:031][  0]LogMemory: Virtual Memory: 705.16 MB used,  4085.39 MB free, 134217728.00 MB total
+[2017.12.11-18.45.18:201][  0]LogInit: Using OS detected language (en-GB).
+[2017.12.11-18.45.18:201][  0]LogInit: Using OS detected locale (en-GB).
+[2017.12.11-18.45.18:398][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.12.11-18.45.23:254][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.11-18.45.23:299][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
+[2017.12.11-18.45.23:299][  0]LogD3D11RHI:       2020/0/4028 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.11-18.45.23:307][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.12.11-18.45.23:307][  0]LogD3D11RHI:       128/0/4028 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.11-18.45.23:309][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.11-18.45.23:309][  0]LogD3D11RHI:       0/0/4028 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.11-18.45.23:309][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.11-18.45.23:315][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.11-18.45.23:315][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.11-18.45.23:315][  0]LogWindows: EnumDisplayDevices:
+[2017.12.11-18.45.23:316][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.12.11-18.45.23:316][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.12.11-18.45.23:316][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.12.11-18.45.23:316][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.11-18.45.23:316][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
+[2017.12.11-18.45.23:316][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.11-18.45.23:316][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.11-18.45.23:316][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.11-18.45.23:340][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.11-18.45.23:355][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.11-18.45.23:355][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Intermediate/Shaders/WorkingDirectory/6884/).
+[2017.12.11-18.45.23:355][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Christopher Nash/AppData/Local/Temp/UnrealShaderWorkingDir/61DEDC3940AD72524AD6F2908523674E/'.
+[2017.12.11-18.45.23:355][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.11-18.45.30:797][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.11-18.45.30:853][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.11-18.45.30:908][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.11-18.45.30:964][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.11-18.45.31:075][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.11-18.45.31:130][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.11-18.45.31:189][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.11-18.45.31:246][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.11-18.45.31:294][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.11-18.45.31:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.11-18.45.31:409][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.11-18.45.31:464][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.11-18.45.31:518][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.11-18.45.31:572][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.11-18.45.31:626][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.11-18.45.31:734][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.11-18.45.31:734][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.11-18.45.31:776][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.11-18.45.31:881][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.11-18.45.31:912][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.11-18.45.31:967][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.11-18.45.32:020][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.11-18.45.32:075][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.11-18.45.32:160][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.11-18.45.32:160][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.11-18.45.32:682][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.11-18.45.33:048][  0]LogDerivedDataCache: Loaded boot cache 0.37s 93MB C:/Users/Christopher Nash/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.11-18.45.33:048][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Christopher Nash/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.11-18.45.33:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.11-18.45.33:048][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.11-18.45.33:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.11-18.45.33:048][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.11-18.45.33:066][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.11-18.45.33:079][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christopher Nash/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.11-18.45.33:129][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.11-18.45.33:129][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.11-18.45.33:157][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.11-18.45.33:157][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.11-18.45.34:959][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2017.12.11-18.45.35:118][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.11-18.45.35:293][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.11-18.45.35:410][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.12.11-18.47.12:077][  0]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
+[2017.12.11-18.47.46:356][  0]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
+[2017.12.11-18.47.51:960][  0]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
+[2017.12.11-18.47.55:773][  0]LogMaterial: Missing cached shader map for material SnapGridMaterial, compiling. 
+[2017.12.11-18.47.56:240][  0]LogMaterial: Missing cached shader map for material TransformGizmoMaterial, compiling. 
+[2017.12.11-18.47.56:670][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.11-18.47.56:745][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.11-18.47.56:745][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.11-18.47.56:745][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.11-18.47.56:745][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.11-18.47.56:745][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.11-18.47.56:750][  0]LogMaterial: Missing cached shader map for material TranslucentTransformGizmoMaterial, compiling. 
+[2017.12.11-18.47.56:835][  0]LogMaterial: Missing cached shader map for material Xray, compiling. 
+[2017.12.11-18.47.56:861][  0]LogMaterial: Missing cached shader map for material Main, compiling. 
+[2017.12.11-18.47.56:923][  0]LogMaterial: Missing cached shader map for material CineMat, compiling. 
+[2017.12.11-18.47.57:030][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2017.12.11-18.47.57:081][  0]LogMaterial: Missing cached shader map for material M_SimpleOpaque, compiling. 
+[2017.12.11-18.47.57:145][  0]LogMaterial: Missing cached shader map for material M_SimpleTranslucent, compiling. 
+[2017.12.11-18.47.57:780][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
+[2017.12.11-18.47.57:811][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2017.12.11-18.47.57:991][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2017.12.11-18.47.58:077][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2017.12.11-18.47.58:190][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2017.12.11-18.47.58:296][  0]LogNetVersion: VR_Shooting_Gallery , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4180774328)
+[2017.12.11-18.47.58:392][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2017.12.11-18.47.58:893][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2017.12.11-18.47.59:266][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.086260 seconds
+[2017.12.11-18.47.59:275][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.11-18.47.59:275][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.11-18.47.59:275][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.11-18.47.59:395][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.11-18.48.11:637][  0]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2017.12.11-18.48.11:655][  0]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
+[2017.12.11-18.48.11:684][  0]LogMaterial: Missing cached shader map for material OculusControllerMaterial, compiling. 
+[2017.12.11-18.48.11:711][  0]LogMaterial: Missing cached shader map for material GridPostProcess, compiling. 
+[2017.12.11-18.48.11:728][  0]LogMaterial: Missing cached shader map for material TeleportDirectionMaterial, compiling. 
+[2017.12.11-18.48.11:768][  0]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
+[2017.12.11-18.48.11:818][  0]LogMaterial: Missing cached shader map for material GenericHMDMaterial, compiling. 
+[2017.12.11-18.48.11:853][  0]LogMaterial: Missing cached shader map for material VivePreControllerMaterial, compiling. 
+[2017.12.11-18.48.11:888][  0]LogMaterial: Missing cached shader map for material FlattenHeightMat, compiling. 
+[2017.12.11-18.48.11:910][  0]LogMaterial: Missing cached shader map for material ArrowMaterial, compiling. 
+[2017.12.11-18.48.11:942][  0]LogMaterial: Missing cached shader map for material KeyDiskMaterial, compiling. 
+[2017.12.11-18.48.11:963][  0]LogMaterial: Missing cached shader map for material M_ContentWindow, compiling. 
+[2017.12.11-18.48.12:044][  0]LogMaterial: Missing cached shader map for material LineMaterial, compiling. 
+[2017.12.11-18.48.14:361][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.11-18.48.14:428][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.11-18.48.14:966][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2017.12.11-18.48.15:742][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2017.12.11-18.48.15:769][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
+[2017.12.11-18.48.15:880][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.11-18.48.15:886][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2017.12.11-18.48.15:901][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
+[2017.12.11-18.48.15:938][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2017.12.11-18.48.15:974][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2017.12.11-18.48.15:996][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2017.12.11-18.48.16:018][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2017.12.11-18.48.16:043][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2017.12.11-18.48.16:057][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
+[2017.12.11-18.48.16:092][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
+[2017.12.11-18.48.16:115][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2017.12.11-18.48.16:137][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2017.12.11-18.48.16:152][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2017.12.11-18.48.16:171][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2017.12.11-18.48.16:193][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2017.12.11-18.48.16:246][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2017.12.11-18.48.16:289][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2017.12.11-18.48.16:313][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2017.12.11-18.48.16:328][  0]LogMaterial: Missing cached shader map for material PreTonemapHDRColor, compiling. 
+[2017.12.11-18.48.16:343][  0]LogMaterial: Missing cached shader map for material PostTonemapHDRColor, compiling. 
+[2017.12.11-18.48.16:979][  0]SourceControl: Source control is disabled
+[2017.12.11-18.48.16:979][  0]SourceControl: Source control is disabled
+[2017.12.11-18.48.17:067][  0]SourceControl: Source control is disabled
+[2017.12.11-18.48.17:153][  0]SourceControl: Source control is disabled
+[2017.12.11-18.48.18:353][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.11-18.48.18:792][  0]LogOcInput: OculusInput pre-init called
+[2017.12.11-18.48.19:271][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
+[2017.12.11-18.48.19:295][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2017.12.11-18.48.19:324][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2017.12.11-18.48.19:362][  0]LogEngine: Initializing Engine...
+[2017.12.11-18.48.19:365][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.11-18.48.19:382][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2017.12.11-18.48.19:785][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2017.12.11-18.48.20:706][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2017.12.11-18.48.21:007][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2017.12.11-18.48.21:936][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2017.12.11-18.48.22:869][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2017.12.11-18.48.23:170][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2017.12.11-18.48.23:296][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2017.12.11-18.48.23:365][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2017.12.11-18.48.23:391][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2017.12.11-18.48.23:417][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2017.12.11-18.48.23:444][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2017.12.11-18.48.23:494][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2017.12.11-18.48.23:526][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2017.12.11-18.48.23:570][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2017.12.11-18.48.23:640][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
+[2017.12.11-18.48.23:660][  0]LogMaterial: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
+[2017.12.11-18.48.23:699][  0]LogMaterial: Missing cached shader map for material GeomMaterial, compiling. 
+[2017.12.11-18.48.23:739][  0]LogMaterial: Missing cached shader map for material EditorBrushMaterial, compiling. 
+[2017.12.11-18.48.23:768][  0]LogMaterial: Missing cached shader map for material BoneWeightMaterial, compiling. 
+[2017.12.11-18.48.23:885][  0]LogMaterial: Missing cached shader map for material ClothMaterial, compiling. 
+[2017.12.11-18.48.23:910][  0]LogMaterial: Missing cached shader map for material ClothMaterial_WF, compiling. 
+[2017.12.11-18.48.23:944][  0]LogMaterial: Missing cached shader map for material DebugEditorMaterial, compiling. 
+[2017.12.11-18.48.23:967][  0]LogMaterial: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2017.12.11-18.48.24:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.11-18.48.24:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.11-18.48.24:467][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.11-18.48.24:482][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.11-18.48.24:551][  0]LogInit: FAudioDevice initialized.
+[2017.12.11-18.48.24:775][  0]LogDerivedDataCache: Saved boot cache 0.22s 97MB C:/Users/Christopher Nash/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.11-18.48.24:797][  0]LogInit: Texture streaming: Enabled
+[2017.12.11-18.48.25:013][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.11-18.48.25:422][  0]LogInit: Transaction tracking system initialized
+[2017.12.11-18.48.26:007][  0]BlueprintLog: New page: Editor Load
+[2017.12.11-18.48.27:654][  0]LocalizationService: Localization service is disabled
+[2017.12.11-18.48.29:072][  0]LogConsoleResponse: Display: 
+[2017.12.11-18.48.29:164][  0]LogMaterial: Missing cached shader map for material Cross_Mat, compiling. 
+[2017.12.11-18.48.29:204][  0]LogMaterial: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling. 
+[2017.12.11-18.48.29:241][  0]LogMaterial: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling. 
+[2017.12.11-18.48.29:263][  0]LogMaterial: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling. 
+[2017.12.11-18.48.29:310][  0]LogMaterial: Missing cached shader map for material PhAT_UnselectedMaterial, compiling. 
+[2017.12.11-18.48.29:348][  0]LogMaterial: Missing cached shader map for material Tick_Mat, compiling. 
+[2017.12.11-18.48.29:396][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2017.12.11-18.48.29:431][  0]LogMaterial: Missing cached shader map for material WidgetMaterial, compiling. 
+[2017.12.11-18.48.29:459][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Current, compiling. 
+[2017.12.11-18.48.29:500][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_X, compiling. 
+[2017.12.11-18.48.29:541][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Y, compiling. 
+[2017.12.11-18.48.29:568][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Z, compiling. 
+[2017.12.11-18.48.29:616][  0]LogMaterial: Missing cached shader map for material WidgetVertexColorMaterial, compiling. 
+[2017.12.11-18.48.29:737][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial, compiling. 
+[2017.12.11-18.48.29:888][  0]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.12.11-18.48.30:053][  0]LogMaterial: Missing cached shader map for material M_StreamingPause, compiling. 
+[2017.12.11-18.48.30:102][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.11-18.48.30:102][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.11-18.48.30:102][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.11-18.48.30:909][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/' took 0.02s
+[2017.12.11-18.48.32:343][  0]SourceControl: Source control is disabled
+[2017.12.11-18.48.32:343][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.11-18.48.32:343][  0]LightingResults: New page: Lighting Build
+[2017.12.11-18.48.32:415][  0]MapCheck: New page: Map Check
+[2017.12.11-18.48.32:415][  0]LightingResults: New page: Lighting Build
+[2017.12.11-18.48.32:487][  0]LogMaterial: Missing cached shader map for material FloorMat, compiling. 
+[2017.12.11-18.48.32:517][  0]LogAIModule: Creating AISystem for world VRMap
+[2017.12.11-18.48.32:547][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.11-18.48.32:583][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.11-18.48.32:655][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.7ms to complete.
+[2017.12.11-18.48.32:655][  0]LogFileHelpers: Loading map 'VRMap' took 0.313
+[2017.12.11-18.48.32:883][  0]LogCollectionManager: Loaded 0 collections in 0.003021 seconds
+[2017.12.11-18.48.32:993][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Collections/' took 0.01s
+[2017.12.11-18.48.32:993][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Developers/ChristopherNash/Collections/' took 0.01s
+[2017.12.11-18.48.32:993][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Collections/' took 0.01s
+[2017.12.11-18.48.32:993][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.11-18.48.33:011][  0]LogContentBrowser: Native class hierarchy populated in 0.0176 seconds. Added 2386 classes and 500 folders.
+[2017.12.11-18.48.33:126][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.12.11-18.48.33:518][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.12.11-18.48.33:594][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.12.11-18.48.35:295][  0]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.11-18.48.35:359][  0]LogSlate: Took 0.056124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.11-18.48.35:428][  0]LogSlate: Took 0.060195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.11-18.48.35:743][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VRShootingGallery
+[2017.12.11-18.48.35:743][  0]LogTemp: CWD: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.11-18.48.35:744][  0]LogTemp: Initial Dir: C:\Program Files (x86)\Epic Games\UE_4.17
+[2017.12.11-18.48.35:744][  0]LogTemp: Env CWD: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.11-18.48.35:744][  0]LogTemp: BranchPath = CHRIS-LAPTOP/C/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = CHRIS-LAPTOP/C/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries
+[2017.12.11-18.48.35:744][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
+[2017.12.11-18.48.35:906][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Christopher Nash\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.11-18.48.35:906][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 10 NumSamples 1 (Frame:1).
+[2017.12.11-18.48.36:485][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.12.11-18.48.36:486][  0]LogLoad: (Engine Initialization) Total time: 202.98 seconds
+[2017.12.11-18.48.36:486][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.11-18.48.36:486][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.11-18.48.36:486][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.11-18.48.36:530][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.11-18.48.36:721][  2]LogAssetRegistry: Asset discovery search completed in 181.7840 seconds
+[2017.12.11-18.48.36:724][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.11-18.48.36:724][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2017.12.11-18.48.37:594][ 47]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.11-18.48.40:638][223]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.11-19.39.09:854][947]LogSlate: Took 0.000532 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.11-19.39.10:377][947]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.11-19.39.10:515][947]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 113 classes and 0 folders.
+[2017.12.11-19.39.11:440][947]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2017.12.11-19.39.11:489][947]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2017.12.11-19.39.15:529][128]LogSlate: Took 0.026948 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.11-19.39.36:813][377]LogSlate: Took 0.027154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.11-19.39.44:690][818]LogRenderer: Reallocating scene render targets to support 856x588 Format 10 NumSamples 1 (Frame:1).
+[2017.12.11-19.39.45:269][851]BlueprintLog: New page: Compile Enemy
+[2017.12.11-19.39.45:877][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/Enemy" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset" SILENT=true
+[2017.12.11-19.39.46:126][851]LogSavePackage: Save=16.82ms
+[2017.12.11-19.39.46:126][851]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Enemy04C7ACD84F13D29FEC4C23AFDE4E9855.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset'
+[2017.12.11-19.39.46:133][851]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset
+[2017.12.11-19.39.46:739][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/Enemy" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset" SILENT=true
+[2017.12.11-19.39.46:760][881]LogSavePackage: Save=15.37ms
+[2017.12.11-19.39.46:760][881]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Enemy582E63804D1CB0A3470BA6BE0428D000.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset'
+[2017.12.11-19.39.46:761][881]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset
+[2017.12.11-19.40.04:355][932]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.12.11-19.40.49:643][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/Enemy" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset" SILENT=true
+[2017.12.11-19.40.49:683][610]LogSavePackage: Save=34.34ms
+[2017.12.11-19.40.49:683][610]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemyE8A7EB16413FEAF9B2B5E6B8B9A14C06.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset'
+[2017.12.11-19.40.49:698][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset
+[2017.12.11-19.41.10:516][219]BlueprintLog: New page: Compile Enemy
+[2017.12.11-19.41.11:090][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/Enemy" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset" SILENT=true
+[2017.12.11-19.41.11:125][225]LogSavePackage: Save=28.61ms
+[2017.12.11-19.41.11:125][225]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemyBEA03430406D2D5796029DB716FF6909.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset'
+[2017.12.11-19.41.11:127][225]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset
+[2017.12.11-19.41.44:905][847]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2017.12.11-19.41.44:937][847]LogMaterial: Missing cached shader map for material EnemyMat, compiling. 
+[2017.12.11-19.41.45:331][847]LogMaterial: Missing cached shader map for material EnemyMat, compiling. 
+[2017.12.11-19.41.45:409][847]LogMaterial: Missing cached shader map for material EnemyMat, compiling. 
+[2017.12.11-19.41.48:038][974]MaterialEditorStats: Base pass shader: 124 instructions
+[2017.12.11-19.41.48:038][974]MaterialEditorStats: Vertex shader: 85 instructions
+[2017.12.11-19.41.48:038][974]MaterialEditorStats: Texture samplers: 1/16
+[2017.12.11-19.41.51:136][159]LogMaterial: Missing cached shader map for material EnemyMat, compiling. 
+[2017.12.11-19.41.51:152][159]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.12.11-19.41.53:795][307]LogMaterial: Missing cached shader map for material EnemyMat, compiling. 
+[2017.12.11-19.41.53:812][307]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.12.11-19.41.55:999][423]MaterialEditorStats: Base pass shader: 124 instructions
+[2017.12.11-19.41.55:999][423]MaterialEditorStats: Vertex shader: 85 instructions
+[2017.12.11-19.41.55:999][423]MaterialEditorStats: Texture samplers: 1/16
+[2017.12.11-19.42.06:488][ 52]LogMaterial: Missing cached shader map for material EnemyMat, compiling. 
+[2017.12.11-19.42.06:513][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.12.11-19.42.07:282][ 86]LogMaterial: Missing cached shader map for material EnemyMat, compiling. 
+[2017.12.11-19.42.07:307][ 86]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.12.11-19.42.09:646][222]MaterialEditorStats: Base pass shader: 124 instructions
+[2017.12.11-19.42.09:646][222]MaterialEditorStats: Vertex shader: 85 instructions
+[2017.12.11-19.42.09:646][222]MaterialEditorStats: Texture samplers: 1/16
+[2017.12.11-19.42.13:163][433]LogMaterialEditor: Applying material EnemyMat
+[2017.12.11-19.42.14:602][433]LogMaterial: Missing cached shader map for material EnemyMat, compiling. 
+[2017.12.11-19.42.14:661][433]LogMaterial: Missing cached shader map for material EnemyMat, compiling. 
+[2017.12.11-19.42.14:698][433]LogMaterial: Missing cached shader map for material EnemyMat, compiling. 
+[2017.12.11-19.42.14:779][433]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EnemyMat, compiling. 
+[2017.12.11-19.42.16:268][433]TextureStreamingBuild: Display: Compiling optional shaders took 1.515 seconds.
+[2017.12.11-19.42.16:777][454]LogMaterialEditor: Saving and Compiling material EnemyMat
+[2017.12.11-19.42.18:783][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/EnemyMat" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Materials/EnemyMat.uasset" SILENT=true
+[2017.12.11-19.42.18:805][454]LogSavePackage: Save=19.21ms
+[2017.12.11-19.42.18:805][454]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemyMatD3F4C2644DE814212CBB00BDB2F55C4E.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Materials/EnemyMat.uasset'
+[2017.12.11-19.42.18:810][454]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Materials/EnemyMat.uasset
+[2017.12.11-19.42.18:816][454]MaterialEditorStats: Base pass shader: 124 instructions
+[2017.12.11-19.42.18:816][454]MaterialEditorStats: Vertex shader: 85 instructions
+[2017.12.11-19.42.18:816][454]MaterialEditorStats: Texture samplers: 2/16
+[2017.12.11-19.42.48:995][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/Enemy" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset" SILENT=true
+[2017.12.11-19.42.49:020][ 48]LogSavePackage: Save=19.23ms
+[2017.12.11-19.42.49:020][ 48]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Enemy87EB44CB40CBBDE71FF1DEB588BF6231.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset'
+[2017.12.11-19.42.49:024][ 48]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset
+[2017.12.11-19.43.35:530][678]BlueprintLog: New page: Compile EnemySpawner
+[2017.12.11-19.43.35:927][686]LogSavePackage: Save=46.95ms
+[2017.12.11-19.43.35:927][686]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemySpawner169B6C934168B2C3302796846CBF1431.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset'
+[2017.12.11-19.43.35:931][686]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset
+[2017.12.11-19.44.42:186][528]BlueprintLog: New page: Compile EnemySpawner
+[2017.12.11-19.44.43:431][539]LogSavePackage: Save=850.56ms
+[2017.12.11-19.44.43:431][539]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemySpawner88FFFA87452DF659C2D56C832C559F70.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset'
+[2017.12.11-19.44.43:435][539]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset
+[2017.12.11-19.45.01:711][629]BlueprintLog: New page: Compile EnemySpawner
+[2017.12.11-19.45.02:155][642]LogSavePackage: Save=15.49ms
+[2017.12.11-19.45.02:155][642]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemySpawnerB21D760B4613164D38F49F8ADA4E66FF.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset'
+[2017.12.11-19.45.02:160][642]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset
+[2017.12.11-19.45.48:734][378]BlueprintLog: New page: Compile EnemySpawner
+[2017.12.11-19.45.49:273][386]LogSavePackage: Save=16.83ms
+[2017.12.11-19.45.49:273][386]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemySpawner4C50F9754C657DECB8CA2684A90E7FB2.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset'
+[2017.12.11-19.45.49:277][386]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset
+[2017.12.11-19.46.28:285][686]BlueprintLog: New page: Compile EnemySpawner
+[2017.12.11-19.46.28:354][686]LogBlueprint: Error: [Compiler EnemySpawner] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.12.11-19.46.28:355][686]LogBlueprint: Error: [Compiler EnemySpawner] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.12.11-19.46.28:526][686]LogBlueprint: Warning: [Compiler EnemySpawner] [3675.02] Compile of EnemySpawner failed. 2 Fatal Issue(s) 0 Warning(s) [in 241 ms] (/Game/Blueprints/Enemy/EnemySpawner.EnemySpawner)
+[2017.12.11-19.46.28:988][709]LogSavePackage: Save=17.99ms
+[2017.12.11-19.46.28:988][709]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemySpawner70E6175540FCC63DCAB99FA31A79B34F.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset'
+[2017.12.11-19.46.28:992][709]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset
+[2017.12.11-19.47.02:171][683]BlueprintLog: New page: Compile EnemySpawner
+[2017.12.11-19.47.02:727][700]LogSavePackage: Save=22.00ms
+[2017.12.11-19.47.02:727][700]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemySpawner5F30F8F9418D5391B08CEA88AE50C42D.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset'
+[2017.12.11-19.47.02:731][700]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset
+[2017.12.11-19.47.17:738][598]BlueprintLog: New page: Compile EnemySpawner
+[2017.12.11-19.47.18:192][611]LogSavePackage: Save=22.46ms
+[2017.12.11-19.47.18:192][611]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemySpawnerE2B405C44272C00676CB15B0F7877E4E.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset'
+[2017.12.11-19.47.18:196][611]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset
+[2017.12.11-19.47.38:396][820]LogSavePackage: Save=20.68ms
+[2017.12.11-19.47.38:396][820]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemySpawner8A0E14B043E78D017C3863B6ADC56C67.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset'
+[2017.12.11-19.47.38:401][820]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset
+[2017.12.11-19.52.04:657][791]LogSavePackage: Save=22.92ms
+[2017.12.11-19.52.04:657][791]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemySpawnerE062E4F14EC608CA8795FAAF5DE54D65.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset'
+[2017.12.11-19.52.04:660][791]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/EnemySpawner.uasset
+[2017.12.11-19.54.18:713][760]BlueprintLog: New page: Compile BPI_Enemy
+[2017.12.11-19.54.19:345][795]LogSavePackage: Save=10.66ms
+[2017.12.11-19.54.19:346][795]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/BPI_EnemyEE65F10A436F1721367C5FA1FA540ECF.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Interfaces/BPI_Enemy.uasset'
+[2017.12.11-19.54.19:348][795]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Interfaces/BPI_Enemy.uasset
+[2017.12.11-19.54.38:168][886]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.11-19.54.44:474][262]BlueprintLog: New page: Compile Enemy
+[2017.12.11-19.54.44:974][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/Enemy" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset" SILENT=true
+[2017.12.11-19.54.45:016][263]LogSavePackage: Save=27.84ms
+[2017.12.11-19.54.45:016][263]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Enemy075188BB42FE16185E014EAA3D6D920D.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset'
+[2017.12.11-19.54.45:020][263]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset
+[2017.12.11-19.55.36:757][296]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/VRMap' took 0.025
+[2017.12.11-19.55.36:905][296]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Enemy/Enemy] ([1] browsable assets)...
+[2017.12.11-19.55.36:978][296]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Enemy/Enemy.Enemy]
+[2017.12.11-19.55.36:978][296]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemy/Enemy]
+[2017.12.11-19.55.37:009][296]LogSavePackage: Save=24.43ms
+[2017.12.11-19.55.37:009][296]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Enemy_Auto1B15CFD7A4714609CD1AB8081AD7B15F7.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Autosaves/Game/Blueprints/Enemy/Enemy_Auto1.uasset'
+[2017.12.11-19.55.37:011][296]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Autosaves/Game/Blueprints/Enemy/Enemy_Auto1.uasset
+[2017.12.11-19.55.37:011][296]LogFileHelpers: Auto-saving content packages took 0.225
+[2017.12.11-19.55.48:776][  1]BlueprintLog: New page: Compile Enemy
+[2017.12.11-19.55.49:208][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/Enemy" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset" SILENT=true
+[2017.12.11-19.55.49:268][  4]LogSavePackage: Save=23.74ms
+[2017.12.11-19.55.49:268][  4]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Enemy6F58E7DC487DAB1AA39968934F127EE3.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset'
+[2017.12.11-19.55.49:271][  4]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset
+[2017.12.11-19.58.09:461][347]BlueprintLog: New page: Compile Enemy
+[2017.12.11-19.58.09:974][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/Enemy" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset" SILENT=true
+[2017.12.11-19.58.10:007][353]LogSavePackage: Save=27.96ms
+[2017.12.11-19.58.10:007][353]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Enemy3CB7046E4AD03B132429ACACDDA847F4.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset'
+[2017.12.11-19.58.10:012][353]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset
+[2017.12.11-19.59.35:921][484]LogMaterial: Missing cached shader map for material GunMat, compiling. 
+[2017.12.11-20.01.16:406][435]BlueprintLog: New page: Compile Player
+[2017.12.11-20.01.16:961][437]LogSavePackage: Save=75.93ms
+[2017.12.11-20.01.16:961][437]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/PlayerD5BCFD664E66BB3B5DEE558A64F7B7B4.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset'
+[2017.12.11-20.01.16:965][437]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset
+[2017.12.11-20.01.53:400][607]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.11-20.02.21:647][284]BlueprintLog: New page: Compile Player
+[2017.12.11-20.02.22:278][294]LogSavePackage: Save=56.73ms
+[2017.12.11-20.02.22:278][294]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Player4D166F564EE95D318A4D358EEE15FBB0.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset'
+[2017.12.11-20.02.22:283][294]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset
+[2017.12.11-20.03.12:764][312]BlueprintLog: New page: Compile Player
+[2017.12.11-20.03.13:424][323]LogSavePackage: Save=58.17ms
+[2017.12.11-20.03.13:424][323]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/PlayerFF65E5B84AABA54A0FBC5BB175B90EB6.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset'
+[2017.12.11-20.03.13:428][323]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset
+[2017.12.11-20.03.31:750][422]BlueprintLog: New page: Compile Enemy
+[2017.12.11-20.03.32:202][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/Enemy" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset" SILENT=true
+[2017.12.11-20.03.32:243][426]LogSavePackage: Save=26.88ms
+[2017.12.11-20.03.32:243][426]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemyE857CBDD4B7F6E40DFD8F59B6DA6C731.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset'
+[2017.12.11-20.03.32:245][426]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset
+[2017.12.11-20.05.09:374][239]LogSavePackage: Save=124.94ms
+[2017.12.11-20.05.09:374][239]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMapF49FB2FD40865789D962B59D68B16743.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap'
+[2017.12.11-20.05.09:376][239]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap
+[2017.12.11-20.05.09:444][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VRMap_BuiltData" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset" SILENT=true
+[2017.12.11-20.05.09:474][239]LogSavePackage: Save=20.12ms
+[2017.12.11-20.05.09:474][239]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMap_BuiltData14ECC5E1466197E6EA3E01B769887F24.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.05.09:475][239]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset', retrying in .5s...
+[2017.12.11-20.05.09:976][239]LogFileManager: Error: Error deleting file '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'.
+[2017.12.11-20.05.09:976][239]LogSavePackage: Error: Error saving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.05.09:977][239]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset
+[2017.12.11-20.05.24:061][239]EditorErrors: New page: Save Output
+[2017.12.11-20.05.24:061][239]EditorErrors: Warning: Error saving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.05.42:154][170]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.11-20.06.06:704][634]LogSavePackage: Save=24.07ms
+[2017.12.11-20.06.06:704][634]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMap5C2976F04D816B6CA64E6FAD0E75219B.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap'
+[2017.12.11-20.06.06:706][634]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap
+[2017.12.11-20.06.06:743][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VRMap_BuiltData" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset" SILENT=true
+[2017.12.11-20.06.06:765][634]LogSavePackage: Save=17.33ms
+[2017.12.11-20.06.06:765][634]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMap_BuiltDataAC53DCA94A0FA812C34A829A3AA4D33F.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.06.06:766][634]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset', retrying in .5s...
+[2017.12.11-20.06.07:267][634]LogFileManager: Error: Error deleting file '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'.
+[2017.12.11-20.06.07:267][634]LogSavePackage: Error: Error saving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.06.07:268][634]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset
+[2017.12.11-20.06.12:136][634]EditorErrors: New page: Save Output
+[2017.12.11-20.06.12:136][634]EditorErrors: Warning: Error saving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.06.34:529][882]LogSavePackage: Save=451.77ms
+[2017.12.11-20.06.34:529][882]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMap341C13484C6709E123A15D911453A864.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap'
+[2017.12.11-20.06.34:531][882]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap
+[2017.12.11-20.06.34:568][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VRMap_BuiltData" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset" SILENT=true
+[2017.12.11-20.06.34:589][882]LogSavePackage: Save=16.31ms
+[2017.12.11-20.06.34:589][882]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMap_BuiltData03BC498441A698292A2D84A3A83A4D63.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.06.34:590][882]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset', retrying in .5s...
+[2017.12.11-20.06.35:091][882]LogFileManager: Error: Error deleting file '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'.
+[2017.12.11-20.06.35:091][882]LogSavePackage: Error: Error saving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.06.35:092][882]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset
+[2017.12.11-20.06.43:065][882]EditorErrors: New page: Save Output
+[2017.12.11-20.06.43:065][882]EditorErrors: Warning: Error saving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.07.06:628][435]LogSavePackage: Save=26.47ms
+[2017.12.11-20.07.06:629][435]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMapD04A5EC040B987BCCF49E394D87E7D52.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap'
+[2017.12.11-20.07.06:631][435]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap
+[2017.12.11-20.07.06:667][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VRMap_BuiltData" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset" SILENT=true
+[2017.12.11-20.07.06:688][435]LogSavePackage: Save=16.18ms
+[2017.12.11-20.07.06:688][435]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMap_BuiltDataC8D729904E124DC809CAC78ED0BF7CB7.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.07.06:690][435]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset
+[2017.12.11-20.07.07:941][496]LogSavePackage: Save=25.76ms
+[2017.12.11-20.07.07:941][496]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMap3C487AB24B3CBFE66B4CF7B7361A8925.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap'
+[2017.12.11-20.07.07:943][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap
+[2017.12.11-20.07.07:978][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VRMap_BuiltData" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset" SILENT=true
+[2017.12.11-20.07.08:003][496]LogSavePackage: Save=19.55ms
+[2017.12.11-20.07.08:003][496]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMap_BuiltData0A9AC6FC4076693C975F55B535E025E7.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.07.08:005][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset
+[2017.12.11-20.07.09:853][596]LogSavePackage: Save=25.56ms
+[2017.12.11-20.07.09:853][596]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMap13E1EF9147540D34FC0CC1AAFB082BF5.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap'
+[2017.12.11-20.07.09:855][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap
+[2017.12.11-20.07.09:889][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VRMap_BuiltData" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset" SILENT=true
+[2017.12.11-20.07.09:910][596]LogSavePackage: Save=17.59ms
+[2017.12.11-20.07.09:910][596]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMap_BuiltData18B51EDF41DA3BD915032DA47CB8C0C5.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.07.09:912][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset
+[2017.12.11-20.08.39:567][953]LogSlate: Took 0.022819 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.12.11-20.08.43:423][182]BlueprintLog: New page: Compile Player
+[2017.12.11-20.08.44:006][185]LogSavePackage: Save=56.88ms
+[2017.12.11-20.08.44:006][185]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/PlayerFDBA6C26447724ADED1FDEBEF5DF7AB2.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset'
+[2017.12.11-20.08.44:010][185]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset
+[2017.12.11-20.09.53:476][323]BlueprintLog: New page: Compile BPI_Player
+[2017.12.11-20.09.53:933][348]LogSavePackage: Save=9.95ms
+[2017.12.11-20.09.53:933][348]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/BPI_Player6A536D5C43399901CEFA0094B8E21B72.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Interfaces/BPI_Player.uasset'
+[2017.12.11-20.09.53:937][348]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Interfaces/BPI_Player.uasset
+[2017.12.11-20.10.20:909][965]BlueprintLog: New page: Compile BPI_Player
+[2017.12.11-20.10.21:376][990]LogSavePackage: Save=10.62ms
+[2017.12.11-20.10.21:376][990]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/BPI_Player03B21FC140BBC281C455F888AB1B4773.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Interfaces/BPI_Player.uasset'
+[2017.12.11-20.10.21:379][990]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Interfaces/BPI_Player.uasset
+[2017.12.11-20.10.44:147][356]BlueprintLog: New page: Compile BPI_Player
+[2017.12.11-20.10.46:253][473]LogSavePackage: Save=92.02ms
+[2017.12.11-20.10.46:253][473]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/BPI_Player75E5F1AB437B1724ED6637AA576A50FE.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Interfaces/BPI_Player.uasset'
+[2017.12.11-20.10.46:258][473]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Interfaces/BPI_Player.uasset
+[2017.12.11-20.11.18:086][381]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.11-20.11.22:028][614]BlueprintLog: New page: Compile Player
+[2017.12.11-20.11.24:910][759]LogSavePackage: Save=58.43ms
+[2017.12.11-20.11.24:910][759]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/PlayerD6B41C1C4533875509B2EEA94E692F7F.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset'
+[2017.12.11-20.11.24:914][759]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset
+[2017.12.11-20.12.40:051][192]BlueprintLog: New page: Compile Player
+[2017.12.11-20.12.40:655][203]LogSavePackage: Save=64.46ms
+[2017.12.11-20.12.40:655][203]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/PlayerD04120E947D048DD24C1C4857E9D9B64.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset'
+[2017.12.11-20.12.40:659][203]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset
+[2017.12.11-20.13.26:173][925]BlueprintLog: New page: Compile Player
+[2017.12.11-20.13.26:817][935]LogSavePackage: Save=66.05ms
+[2017.12.11-20.13.26:817][935]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Player57E9CAE144E517AA7CDF98BCDCCD2D26.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset'
+[2017.12.11-20.13.26:821][935]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset
+[2017.12.11-20.14.10:463][545]BlueprintLog: New page: Compile Player
+[2017.12.11-20.14.11:043][554]LogSavePackage: Save=68.98ms
+[2017.12.11-20.14.11:043][554]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/PlayerF2218C7148908694C20EAEA681446E43.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset'
+[2017.12.11-20.14.11:047][554]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset
+[2017.12.11-20.14.17:291][923]LogSavePackage: Save=58.11ms
+[2017.12.11-20.14.17:291][923]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Player52A1232D40DAC10703780980D24BAA48.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset'
+[2017.12.11-20.14.17:295][923]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset
+[2017.12.11-20.14.26:785][488]LogSavePackage: Save=58.34ms
+[2017.12.11-20.14.26:785][488]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Player8DA856EC4CC418F4179D60A3300A66D7.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset'
+[2017.12.11-20.14.26:789][488]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset
+[2017.12.11-20.15.00:721][519]LogSavePackage: Save=61.27ms
+[2017.12.11-20.15.00:721][519]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Player224660F44F1E537F3F7FD8B548866826.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset'
+[2017.12.11-20.15.00:723][519]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset
+[2017.12.11-20.15.01:163][545]BlueprintLog: New page: Compile Player
+[2017.12.11-20.15.14:818][346]BlueprintLog: New page: Compile Player
+[2017.12.11-20.15.15:515][360]LogSavePackage: Save=68.05ms
+[2017.12.11-20.15.15:515][360]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Player0CC87E284B891DB5665E348BF28DBEF9.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset'
+[2017.12.11-20.15.15:519][360]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset
+[2017.12.11-20.17.23:643][987]BlueprintLog: New page: Compile Enemy
+[2017.12.11-20.17.24:260][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/Enemy" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset" SILENT=true
+[2017.12.11-20.17.24:302][  1]LogSavePackage: Save=28.66ms
+[2017.12.11-20.17.24:302][  1]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Enemy91599B454BBD8BA1927327B1A2A44DA2.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset'
+[2017.12.11-20.17.24:305][  1]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset
+[2017.12.11-20.17.39:129][889]BlueprintLog: New page: Compile Enemy
+[2017.12.11-20.17.39:606][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/Enemy" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset" SILENT=true
+[2017.12.11-20.17.39:640][895]LogSavePackage: Save=28.49ms
+[2017.12.11-20.17.39:640][895]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemyBB904AFA449C126F799B34B045D12056.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset'
+[2017.12.11-20.17.39:644][895]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset
+[2017.12.11-20.17.56:731][920]BlueprintLog: New page: Compile Player
+[2017.12.11-20.17.57:283][925]LogSavePackage: Save=67.16ms
+[2017.12.11-20.17.57:283][925]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Player77AAE3DD47464468009481AAD67880CF.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset'
+[2017.12.11-20.17.57:285][925]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset
+[2017.12.11-20.19.29:583][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy/Enemy" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset" SILENT=true
+[2017.12.11-20.19.29:611][462]LogSavePackage: Save=21.19ms
+[2017.12.11-20.19.29:611][462]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/EnemyF81925854F60C46D072C9EBE6175ACF3.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset'
+[2017.12.11-20.19.29:612][462]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Enemy/Enemy.uasset
+[2017.12.11-20.19.31:683][577]LogSavePackage: Save=58.87ms
+[2017.12.11-20.19.31:683][577]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Player28594C724BD922D3D56CE38F57D76EEB.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset'
+[2017.12.11-20.19.31:687][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/Player/Player.uasset
+[2017.12.11-20.19.32:258][610]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.11-20.19.33:622][683]LogSavePackage: Save=25.16ms
+[2017.12.11-20.19.33:622][683]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMapF83852B94EDE2ABDA42CBA8825DC41A7.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap'
+[2017.12.11-20.19.33:624][683]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap
+[2017.12.11-20.19.33:661][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VRMap_BuiltData" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset" SILENT=true
+[2017.12.11-20.19.33:689][683]LogSavePackage: Save=16.50ms
+[2017.12.11-20.19.33:689][683]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMap_BuiltDataD39ED067466E01DC1EF874B68529E16E.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.19.33:691][683]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset
+[2017.12.11-20.25.16:746][790]LogMetaData: Removing '/Game/Blueprints/UI/InGamePlayerScoreBP.InGamePlayerScoreBP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/UI/InGamePlayerScore.PackageMetaData'
+[2017.12.11-20.25.16:746][790]LogMetaData: Removing '/Game/Blueprints/UI/InGamePlayerScoreBP.SKEL_InGamePlayerScoreBP_C' ref from Metadata '/Game/Blueprints/UI/InGamePlayerScore.PackageMetaData'
+[2017.12.11-20.25.16:746][790]LogMetaData: Removing '/Game/Blueprints/UI/InGamePlayerScoreBP.InGamePlayerScoreBP_C' ref from Metadata '/Game/Blueprints/UI/InGamePlayerScore.PackageMetaData'
+[2017.12.11-20.25.16:746][790]LogMetaData: Removing '/Game/Blueprints/UI/InGamePlayerScoreBP.InGamePlayerScoreBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/UI/InGamePlayerScore.PackageMetaData'
+[2017.12.11-20.25.16:746][790]LogMetaData: Removing '/Game/Blueprints/UI/InGamePlayerScoreBP.InGamePlayerScoreBP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/UI/InGamePlayerScore.PackageMetaData'
+[2017.12.11-20.25.16:746][790]LogMetaData: Removing '/Game/Blueprints/UI/InGamePlayerScoreBP.InGamePlayerScoreBP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/UI/InGamePlayerScore.PackageMetaData'
+[2017.12.11-20.25.16:806][790]LogSavePackage: Save=15.72ms
+[2017.12.11-20.25.16:806][790]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/InGamePlayerScoreBPE936710C441C07D044081DA45BD28566.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/UI/InGamePlayerScoreBP.uasset'
+[2017.12.11-20.25.16:810][790]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/UI/InGamePlayerScoreBP.uasset
+[2017.12.11-20.26.48:259][224]LogSavePackage: Save=24.57ms
+[2017.12.11-20.26.48:260][224]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMap2AD46A4242EFB623E5B75192402B6112.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap'
+[2017.12.11-20.26.48:261][224]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap
+[2017.12.11-20.26.48:296][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VRMap_BuiltData" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset" SILENT=true
+[2017.12.11-20.26.48:323][224]LogSavePackage: Save=16.47ms
+[2017.12.11-20.26.48:323][224]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMap_BuiltData5705B1AD444D1098ABADB693FF431252.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.26.48:325][224]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset
+[2017.12.11-20.26.51:647][407]LogSavePackage: Save=13.80ms
+[2017.12.11-20.26.51:647][407]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/InGamePlayerScoreWidgetBB775FD941EAAE260B35A6A48FA405C1.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/UI/InGamePlayerScoreWidget.uasset'
+[2017.12.11-20.26.51:652][407]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Blueprints/UI/InGamePlayerScoreWidget.uasset
+[2017.12.11-20.26.53:932][530]LogSavePackage: Save=25.37ms
+[2017.12.11-20.26.53:932][530]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMapAAA991384F496ACD4D9BB6A0FE1AE657.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap'
+[2017.12.11-20.26.53:934][530]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap.umap
+[2017.12.11-20.26.53:972][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VRMap_BuiltData" FILE="../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset" SILENT=true
+[2017.12.11-20.26.53:993][530]LogSavePackage: Save=16.06ms
+[2017.12.11-20.26.53:993][530]LogSavePackage: Moving '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/VRMap_BuiltDataBBFF59C24E41A62E302E94A8A0FB3D5A.tmp' to '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset'
+[2017.12.11-20.26.53:995][530]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Maps/VRMap_BuiltData.uasset
+[2017.12.11-20.26.56:273][648]Cmd: QUIT_EDITOR
+[2017.12.11-20.26.56:303][648]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.11-20.26.56:318][648]LogExit: Preparing to exit.
+[2017.12.11-20.26.57:482][648]LogDirectoryWatcher: A directory notification for 'C:/Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/' was aborted.
+[2017.12.11-20.26.57:579][648]LogExit: Editor shut down
+[2017.12.11-20.26.57:615][648]LogExit: Transaction tracking system shut down
+[2017.12.11-20.26.57:823][648]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.11-20.26.57:823][648]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/' was aborted.
+[2017.12.11-20.26.57:823][648]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.11-20.26.57:823][648]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.11-20.26.57:823][648]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.11-20.26.57:923][648]LogExit: Object subsystem successfully closed.
+[2017.12.11-20.26.57:951][648]LogD3D11RHI: Shutdown
+[2017.12.11-20.26.57:951][648]LogD3D11RHI: CleanupD3DDevice
+[2017.12.11-20.26.58:065][648]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.11-20.26.58:084][648]LogModuleManager: Shutting down and abandoning module SequencerWidgets (542)
+[2017.12.11-20.26.58:084][648]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (540)
+[2017.12.11-20.26.58:084][648]LogModuleManager: Shutting down and abandoning module MaterialEditor (538)
+[2017.12.11-20.26.58:084][648]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.12.11-20.26.58:084][648]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.12.11-20.26.58:084][648]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.12.11-20.26.58:084][648]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (530)
+[2017.12.11-20.26.58:084][648]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.12.11-20.26.58:084][648]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.12.11-20.26.58:084][648]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.12.11-20.26.58:090][648]LogDirectoryWatcher: A directory notification for 'C:/Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Collections/' was aborted.
+[2017.12.11-20.26.58:090][648]LogDirectoryWatcher: A directory notification for 'C:/Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Content/Developers/ChristopherNash/Collections/' was aborted.
+[2017.12.11-20.26.58:090][648]LogDirectoryWatcher: A directory notification for 'C:/Users/Christopher Nash/Documents/Unreal Projects/VR_Shooting_Gallery/Saved/Collections/' was aborted.
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.12.11-20.26.58:090][648]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.12.11-20.26.58:091][648]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.12.11-20.26.58:188][648]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.12.11-20.26.58:188][648]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.12.11-20.26.58:188][648]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.12.11-20.26.58:188][648]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.12.11-20.26.58:188][648]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.12.11-20.26.58:188][648]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.12.11-20.26.58:188][648]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.12.11-20.26.58:188][648]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.12.11-20.26.58:188][648]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.12.11-20.26.58:188][648]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.12.11-20.26.58:188][648]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.12.11-20.26.58:188][648]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.12.11-20.26.58:188][648]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.12.11-20.26.58:188][648]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.12.11-20.26.58:189][648]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.12.11-20.26.58:189][648]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.12.11-20.26.58:189][648]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.12.11-20.26.58:189][648]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.12.11-20.26.58:189][648]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.12.11-20.26.58:189][648]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.12.11-20.26.58:189][648]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.12.11-20.26.58:189][648]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.12.11-20.26.58:189][648]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.12.11-20.26.58:189][648]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.12.11-20.26.58:244][648]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.12.11-20.26.58:244][648]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.12.11-20.26.58:244][648]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.12.11-20.26.58:244][648]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.12.11-20.26.58:244][648]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.12.11-20.26.58:244][648]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.12.11-20.26.58:244][648]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.12.11-20.26.58:245][648]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.12.11-20.26.58:245][648]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.12.11-20.26.58:245][648]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.12.11-20.26.58:252][648]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.12.11-20.26.58:253][648]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.12.11-20.26.58:253][648]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.12.11-20.26.58:253][648]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.12.11-20.26.58:253][648]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.12.11-20.26.58:253][648]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.12.11-20.26.58:253][648]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.12.11-20.26.58:253][648]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.12.11-20.26.58:253][648]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.12.11-20.26.58:253][648]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.12.11-20.26.58:253][648]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.12.11-20.26.58:254][648]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.12.11-20.26.58:254][648]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.12.11-20.26.58:254][648]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.12.11-20.26.58:254][648]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.12.11-20.26.58:254][648]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.12.11-20.26.58:254][648]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.12.11-20.26.58:254][648]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.12.11-20.26.58:254][648]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.12.11-20.26.58:254][648]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.12.11-20.26.58:254][648]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.12.11-20.26.58:299][648]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.12.11-20.26.58:300][648]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.12.11-20.26.58:301][648]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.12.11-20.26.58:301][648]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.12.11-20.26.58:302][648]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.12.11-20.26.58:302][648]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.12.11-20.26.58:302][648]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.12.11-20.26.58:302][648]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.12.11-20.26.58:303][648]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.12.11-20.26.58:303][648]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.12.11-20.26.58:303][648]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.12.11-20.26.58:303][648]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.12.11-20.26.58:303][648]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.12.11-20.26.58:303][648]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.12.11-20.26.58:303][648]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.12.11-20.26.58:404][648]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.12.11-20.26.58:504][648]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.12.11-20.26.58:504][648]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.12.11-20.26.58:504][648]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.12.11-20.26.58:504][648]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.12.11-20.26.58:504][648]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.12.11-20.26.58:504][648]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.12.11-20.26.58:505][648]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.12.11-20.26.58:505][648]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.12.11-20.26.58:505][648]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.12.11-20.26.58:505][648]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.12.11-20.26.58:507][648]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.12.11-20.26.58:507][648]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.12.11-20.26.58:508][648]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.12.11-20.26.58:511][648]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.12.11-20.26.58:517][648]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.11-20.26.58:573][648]LogDerivedDataCache: Shutdown
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.11-20.26.58:573][648]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.11-20.26.58:574][648]LogOnline: Display: Unloading online subsystem: NULL
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.11-20.26.58:574][648]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.11-20.26.58:574][648]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.11-20.26.58:574][648]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA4C1E394-4F61-722F-2631-9EA909591339%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=6f8b213b40b2aac4cd12c5b6190b5a8a%7C416aa514bd344c65a3283b10979b9a3a%7C259c91d6-5f86-45d2-a424-d24643cdcbcc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.11-20.26.58:606][648]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.11-20.26.58:609][648]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.11-20.26.58:609][648]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.11-20.26.58:609][648]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.11-20.26.58:609][648]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.11-20.26.58:609][648]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.11-20.26.58:609][648]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.11-20.26.58:609][648]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.11-20.26.58:614][648]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.11-20.26.58:614][648]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.11-20.26.58:614][648]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.11-20.26.58:614][648]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.11-20.26.58:614][648]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.11-20.26.58:614][648]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.11-20.26.58:614][648]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.11-20.26.58:614][648]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.11-20.26.58:614][648]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.11-20.26.58:614][648]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.11-20.26.58:614][648]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.11-20.26.58:616][648]LogExit: Exiting.
+[2017.12.11-20.26.58:640][648]Log file closed, 12/11/17 20:26:58
